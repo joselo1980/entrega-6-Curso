@@ -139,6 +139,34 @@
     grid-area: areas;
 }
 
+/* ===== GRILLA NOSOTROS (MOBILE) ===== */
+.grilla-nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "nosotros"
+        "mision"
+        "vision"
+        "equipo";
+    gap: 30px;
+}
+
+.nosotros {
+    grid-area: nosotros;
+}
+
+.mision {
+    grid-area: mision;
+}
+
+.vision {
+    grid-area: vision;
+}
+
+.equipo {
+    grid-area: equipo;
+}
+
 /* ===== TARJETAS ===== */
 .tarjetas {
     display: grid;
@@ -320,6 +348,15 @@
             "presentacion servicios"
             "galeria galeria"
             "elegir elegir";
+        gap: 40px;
+    }
+
+    .grilla-nosotros {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "nosotros mision"
+            "nosotros vision"
+            "equipo equipo";
         gap: 40px;
     }
 

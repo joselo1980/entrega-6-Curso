@@ -2,6 +2,10 @@
 
 Sitio web del estudio jurídico y notarial Rodó & Asociados, de Parque Rodó, Montevideo. Es el proyecto del curso de Desarrollo Web de Coderhouse.
 
+## Sitio publicado
+
+https://joselo1980.github.io/entrega-6-Curso/
+
 ## Páginas
 
 - Inicio (index.html)
@@ -10,9 +14,12 @@ Sitio web del estudio jurídico y notarial Rodó & Asociados, de Parque Rodó, M
 - Servicios (pages/servicios.html)
 - Contacto (pages/contacto.html)
 
+## Tecnologías
+
+- HTML5 semántico
+- CSS propio con Flexbox, Grid y media queries
+- Bootstrap 5 por CDN (navbar, carousel y modal)
+
 ## Cómo verlo
 
-1. Descargar o clonar el repositorio.
-2. Abrir el archivo index.html en el navegador.
-
-También se puede abrir con la extensión Live Server de Visual Studio Code.
+Entrar al link del sitio publicado, o descargar el repositorio y abrir el archivo index.html en el navegador.
